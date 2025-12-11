@@ -1,0 +1,36 @@
+.back {
+    background-color: #f5f6fa;
+}
+
+#tasks_list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#tasks_list li {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#tasks_list li:hover {
+    background-color: #f0f0f0;
+}
+
+#tasks_list li.completed span {
+    text-decoration: line-through;
+    color: grey;
+}
+
+#tasks_list::-webkit-scrollbar {
+    width: 8px;
+}
+
+#tasks_list::-webkit-scrollbar-track {
+    background: #e9ecef;
+    border-radius: 4px;
+}
+
+#tasks_list::-webkit-scrollbar-thumb {
+    background-color: #0d6efd;
+    border-radius: 4px;
+}
