@@ -1,4 +1,4 @@
-# dynamic-task-widget
+# Dynamic Task Widget
 
 A Laravel project to manage dynamic task widgets with responsive design and interactive UI.
 
