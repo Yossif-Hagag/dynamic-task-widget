@@ -8,6 +8,7 @@ A Laravel project to manage dynamic task widgets with responsive design and inte
 
 -   PHP 8.2 Or Above
 -   [Composer](https://getcomposer.org/)
+-   [Node.js and npm](https://nodejs.org/) (for building assets)
 
 ## Installation
 
@@ -57,9 +58,15 @@ php artisan migrate --seed
 php artisan storage:link
 ```
 
+### Install Node Dependencies & Build Assets
+
+```bash
+npm install
+npm run build
+```
+
 ### Run The Server
 
 ```bash
 php artisan serve
 ```
-
