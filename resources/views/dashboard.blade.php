@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
 
     <div class="py-5 back">
-        <div class="container">
+        <div class="container-md">
 
             <div class="card shadow-lg rounded-3">
                 <div class="card-header bg-primary fs-4 text-white d-flex align-items-center">
